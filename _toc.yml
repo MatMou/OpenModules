@@ -1,0 +1,21 @@
+format: jb-book
+root: intro
+
+parts:
+  - caption: "Financial Econometrics"
+    chapters:
+      - file: finance/intro
+      - file: finance/returns_and_stylized_facts
+      - file: finance/volatility_modeling
+
+  - caption: "Statistics for Finance"
+    chapters:
+      - file: statistics/intro
+      - file: statistics/distributions_and_inference
+      - file: statistics/regression_and_diagnostics
+
+  - caption: "Valuation"
+    chapters:
+      - file: valuation/intro
+      - file: valuation/dcf_fundamentals
+      - file: valuation/multiples_and_comparables

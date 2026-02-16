@@ -1,0 +1,36 @@
+# Book-level configuration
+title: "Finance, Statistics & Valuation"
+author: "Mathis"
+logo: ""
+
+# Build settings
+only_build_toc_files: true
+
+# HTML output settings
+html:
+  use_repository_button: true
+  use_edit_page_button: false
+  use_issues_button: true
+  home_page_in_navbar: true
+  navbar_number_sections: false
+  extra_footer: |
+    <p>Course materials — University. Content updated regularly.</p>
+
+# LaTeX / math rendering
+latex:
+  latex_engine: pdflatex
+
+# MathJax for equation rendering
+sphinx:
+  config:
+    mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+    html_theme_options:
+      show_navbar_depth: 2
+      max_navbar_depth: 3
+
+# Enable notebook execution (set to 'off' to skip, 'auto' to run only if no outputs)
+execute:
+  execute_notebooks: "off"
+
+# Bibliography
+bibtex_bibfiles: []
