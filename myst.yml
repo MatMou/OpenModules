@@ -1,8 +1,8 @@
 version: 1
 
 project:
-  title: Finance Course Materials
-  description: Online course materials for Financial Econometrics, Statistics for Finance, and Valuation
+  title: Open Modules
+  description: Online course materials for finance, statistics, and valuation
   toc:
     - file: intro.md
     - title: Financial Econometrics
@@ -20,8 +20,18 @@ project:
         - file: valuation/intro.md
         - file: valuation/dcf_fundamentals.md
         - file: valuation/multiples_and_comparables.md
+    - title: Financial Theory
+      children:
+        - file: financial_theory/intro.md
+        - file: financial_theory/01_introduction_and_course_overview.ipynb
+        - file: financial_theory/02_present_value_relations_I.ipynb
+        - file: financial_theory/03_present_value_relations_II.ipynb
+        - file: financial_theory/04_fixed_income_securities_I.ipynb
+        - file: financial_theory/05_fixed_income_securities_II.ipynb
+        - file: financial_theory/06_equities.ipynb
+        - file: financial_theory/07_forward_and_futures_contracts.ipynb
+        - file: financial_theory/08_options.ipynb
+        - file: financial_theory/09_risk_and_return.ipynb
 
 site:
-  title: Finance Course Materials
-  base_url: /OpenModules
-  
+  title: Open Modules
