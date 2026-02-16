@@ -23,4 +23,5 @@ project:
 
 site:
   title: Finance Course Materials
-  base_url: /OpenModules/
+  base_url: https://matmou.github.io/OpenModules/
+  
