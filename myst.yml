@@ -32,6 +32,19 @@ project:
         - file: financial_theory/07_forward_and_futures_contracts.ipynb
         - file: financial_theory/08_options.ipynb
         - file: financial_theory/09_risk_and_return.ipynb
+    - title: Event Studies
+      children:
+        - file: event_studies/intro.md
+        - file: event_studies/session_01_foundations_of_event_studies.ipynb
+        - file: event_studies/session_02_market_model_normal_returns.ipynb
+        - file: event_studies/session_03_measuring_abnormal_returns.ipynb
+        - file: event_studies/session_04_statistical_inference_parametric.ipynb
+        - file: event_studies/session_05_statistical_inference_nonparametric.ipynb
+        - file: event_studies/session_06_cross_sectional_analysis.ipynb
+        - file: event_studies/session_07_long_horizon_event_studies.ipynb
+        - file: event_studies/session_08_extensions_special_topics.ipynb
+        - file: event_studies/session_09_design_implementation.ipynb
+        - file: event_studies/session_10_capstone_case_studies.ipynb
 
 site:
   title: Open Modules
