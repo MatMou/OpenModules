@@ -1,0 +1,25 @@
+version: 1
+
+project:
+  title: Finance Course Materials
+  description: Online course materials for Financial Econometrics, Statistics for Finance, and Valuation
+  toc:
+    - file: intro.md
+    - title: Financial Econometrics
+      children:
+        - file: finance/intro.md
+        - file: finance/returns_and_stylized_facts.ipynb
+        - file: finance/volatility_modeling.md
+    - title: Statistics for Finance
+      children:
+        - file: statistics/intro.md
+        - file: statistics/distributions_and_inference.md
+        - file: statistics/regression_and_diagnostics.md
+    - title: Valuation
+      children:
+        - file: valuation/intro.md
+        - file: valuation/dcf_fundamentals.md
+        - file: valuation/multiples_and_comparables.md
+
+site:
+  title: Finance Course Materials
