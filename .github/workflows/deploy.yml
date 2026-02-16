@@ -31,11 +31,9 @@ jobs:
 
       - name: Build the book
         run: |
-          jupyter-book build . --verbose 2>&1
+          jupyter-book build . 2>&1
           echo "Exit code: $?"
-          ls -la || echo "No files in directory"
-          ls -la _build/ || echo "No _build folder"
-          ls -la _build/html/ || echo "No _build/html folder"
+          ls -la _build/ || echo "No _build folder created"
 
       - name: Upload artifact for Pages
         uses: actions/upload-pages-artifact@v3
