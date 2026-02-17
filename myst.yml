@@ -45,6 +45,19 @@ project:
         - file: event_studies/session_08_extensions_special_topics.ipynb
         - file: event_studies/session_09_design_implementation.ipynb
         - file: event_studies/session_10_capstone_case_studies.ipynb
+    - title: Volatility Modeling
+      children:
+        - file: volatility_modeling/intro.md
+        - file: volatility_modeling/session_01_foundations_stylized_facts.ipynb
+        - file: volatility_modeling/session_02_arch_garch_models.ipynb
+        - file: volatility_modeling/session_03_asymmetric_garch.ipynb
+        - file: volatility_modeling/session_04_advanced_univariate_models.ipynb
+        - file: volatility_modeling/session_05_realized_volatility.ipynb
+        - file: volatility_modeling/session_06_har_models.ipynb
+        - file: volatility_modeling/session_07_stochastic_volatility.ipynb
+        - file: volatility_modeling/session_08_rough_volatility.ipynb
+        - file: volatility_modeling/session_09_multivariate_volatility.ipynb
+        - file: volatility_modeling/session_10_path_dependent_applications.ipynb
 
 site:
   title: Open Modules
