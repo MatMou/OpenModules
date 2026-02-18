@@ -58,6 +58,21 @@ project:
         - file: volatility_modeling/session_08_rough_volatility.ipynb
         - file: volatility_modeling/session_09_multivariate_volatility.ipynb
         - file: volatility_modeling/session_10_path_dependent_applications.ipynb
+    - title: Time Series Analysis
+      children:
+        - file: timeseries/intro.md
+        - file: timeseries/session_01_intro_timeseries.ipynb
+        - file: timeseries/session_02_decomposition_smoothing.ipynb
+        - file: timeseries/session_03_ets_models.ipynb
+        - file: timeseries/session_04_arima_fundamentals.ipynb
+        - file: timeseries/session_05_arima_advanced.ipynb
+        - file: timeseries/session_06_garch_models.ipynb
+        - file: timeseries/session_07_advanced_garch.ipynb
+        - file: timeseries/session_08_var.ipynb
+        - file: timeseries/session_09_cointegration_vecm.ipynb
+        - file: timeseries/session_10_tvp_var_part1.ipynb
+        - file: timeseries/session_11_tvp_var_part2.ipynb
+        - file: timeseries/session_12_integration_applications.ipynb
 
 site:
   title: Open Modules
