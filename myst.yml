@@ -73,6 +73,10 @@ project:
         - file: timeseries/session_10_tvp_var_part1.ipynb
         - file: timeseries/session_11_tvp_var_part2.ipynb
         - file: timeseries/session_12_integration_applications.ipynb
+    - title: Asset Pricing
+      children:
+        - file: asset_pricing/intro.md
+        - file: asset_pricing/week1_asset_pricing.ipynb
 
 site:
   title: Open Modules
