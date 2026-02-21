@@ -76,6 +76,22 @@ project:
     - title: Asset Pricing
       children:
         - file: asset_pricing/intro.md
+        - title: "Block 1: Decision Theory Foundations"
+          children:
+            - file: asset_pricing/block_1_1_preferences_and_utility.md
+            - file: asset_pricing/block_1_2_risk_aversion.md
+            - file: asset_pricing/block_1_3_intertemporal_choice.md
+        - title: "Block 2: Equilibrium Asset Pricing"
+          children:
+            - file: asset_pricing/block_2_1_sdf_framework.md
+            - file: asset_pricing/block_2_2_mean_variance_capm.md
+            - file: asset_pricing/block_2_3_factor_models_apt.md
+        - title: "Block 3: Puzzles and Modern Extensions"
+          children:
+            - file: asset_pricing/block_3_1_equity_premium_puzzle.md
+            - file: asset_pricing/block_3_2_habit_formation.md
+            - file: asset_pricing/block_3_3_recursive_preferences.md
+            - file: asset_pricing/block_3_4_long_run_risk.md
         - file: asset_pricing/week1_asset_pricing.ipynb
 
 site:
